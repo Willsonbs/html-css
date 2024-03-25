@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <title>Dynamic Images</title>
+</head>
+<body>
+    <h1>Dynamic Images</h1>
+    <p>Try to open this site un multiples deferens devices or simply increase or decrease the size of your browser</p>
+    
+    <picture>
+        <source media="(max-width: 600px)"  srcset="images/IMG-2070.jpg" type="image/jpg">
+        <source media="(min-width: 1000px)" srcset="images/IMG-2170.jpg" type="image/jpg">
+       <img src="images/IMG-2170.jpg" alt="Dynamic">
+    </picture>
+
+    <h1>Playng Music</h1>
+    <p>Hey, Ho! Let's go! Hey, ho! Let's Go!</p>
+
+    <audio src="media/Never You Mind - Dan Lebowitz.mp3" controls autoplay></audio>
+
+    <!---<audio preload="auto" autoplay controls loop>
+        <source src="media/Never You Mind - Dan Lebowitz.mp3" type="audio/mpeg">
+        <source src="media/Never You Mind - Dan Lebowitz.ogg" type="audio/ogg">
+        <source src="media/Never You Mind - Dan Lebowitz.wav" type="audio/wav">
+        <source src="media/Never You Mind - Dan Lebowitz.m4a" type="audio/m4a">
+        <source src="media/Never You Mind - Dan Lebowitz.aac" type="audio/aac">
+        <source src="media/Never You Mind - Dan Lebowitz.flac" type="audio/flac"> -->
+
+        <p>Your browser does not support the audio element.
+            <a href="media/Never You Mind - Dan Lebowitz.mp3"> Click Here to Download</a></p>
+    </audio>
+
+</body>
+</html>

@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+body {
+    background-color: black;
+    color: thistle;
+}
+
+
+button {
+    width: 100px;
+    height: 30px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 300px;
+}
+
+button:hover{
+    
+    color: rgb(251, 4, 4);
+}
+
+button > p {
+    display: none;
+}
+
+button:hover > p {
+    display: block;
+    font-size: 40px;
+    font-weight: 400px;;
+}

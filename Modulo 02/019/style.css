@@ -1,0 +1,79 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'romanus';
+    src: url(fonts/ROMANUS.otf)
+    format('opentype');
+}
+
+body {
+    background-color: #c24936;
+    text-align: center;
+    margin-top: auto;
+    text-justify: center;
+    font-family: 'romanus';
+    
+}
+
+main {
+    background-color: #f1e8d9;
+    width: 1000px;
+    padding: 15px 20px;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 5px 5px 20px #000000;
+    margin-bottom: 20px;
+    
+    
+}
+
+.lista > li {
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.jesus {
+    height: 700px;
+    width: 700px;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 4px 4px 19px #000000;
+    text-align: justify;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.painel-image {
+    text-align: justify;
+    text-align: center;
+}
+
+.title {
+    display: flex;
+    text-align: center;
+    margin-top: auto;
+    justify-content: center;
+}
+
+p {
+    text-align: justify;
+    text-justify: auto;
+    margin: 10px;
+    
+}
+
+h2 {
+    text-align: justify;
+    text-justify: auto;
+    margin: 10px;
+}
+
+h3 {
+    text-align: justify;
+    text-justify: auto;
+    margin: 10px;
+}
+
+
+
+

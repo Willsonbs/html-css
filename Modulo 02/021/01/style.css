@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+body {
+    padding: auto;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    background-color: rgb(152, 218, 160);
+    color: white;
+    height: 150px;
+    width: 300px;
+
+    /*
+    border-width: 10px;
+    border-style: solid;
+    border-color: rgb(75, 96, 77);
+    
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px; */
+
+    padding: 10px; /* padding informado dessa forma é para ajustar os quatros lados*/
+    margin: 10px;
+
+
+}
+
+a {
+    border-width: 6px;
+    border-style: solid;
+    border-color: rgb(134, 174, 138);
+    
+}

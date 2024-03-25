@@ -1,0 +1,49 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    font-family: 'work sans';
+    font-size: 1em;
+    font-weight: normal;
+}
+
+p {
+    text-align: justify;
+}
+
+body {
+    background-image: linear-gradient(90deg, #CACACA, #00BBC9 );
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+main {
+    background-color: white;
+    width: 900px;
+    padding: 15px;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 4px 4px 19px #000000;
+}
+
+/* 
+Medias absolutas
+cm-centimetros, mm- milimietros, in-polegadas, px-pixels, pc-paica.
+
+Medidas relativas
+em-, medida relativa ao tamanho atual, ex-tamanho da altura x de uma fonte, rem-fonte configurada no body,
+vw-view port porcetagem da view port, vh-altura da view port, % porcentagem
+
+
+como usar shorthand
+primeiro usar a ordem correta (font-style -> font-weight -> font-size -> font-family -> )
+
+font: italic bolde 2em 'Times New Roman',;
+ou 
+font: bold 1em 'Times New Roman',
+
+
+
+*/

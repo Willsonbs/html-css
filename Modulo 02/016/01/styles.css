@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+.body {
+    background-image: linear-gradient(#5f5f5b, #dddddd);
+    text-align: justify;
+    padding: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+}
+
+.title {
+    background-color: black; color: white;
+    padding: 5px;
+}

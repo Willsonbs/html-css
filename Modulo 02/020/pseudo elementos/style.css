@@ -1,0 +1,50 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'nexa';
+    src: url('fonts/Nexa-ExtraLight.ttf')
+    format('truetype');
+}
+
+body {
+    font-family: 'nexa';
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:visited {
+    color: rgb(11, 136, 38);
+    text-decoration: underline;
+}
+
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+a:active {
+    color: rgb(119, 8, 231);
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+
+body {
+    background-color: aquamarine;
+}
+
+div {
+    display: inline-block;
+    text-align: center;
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+
+}
+
+div:hover {
+    cursor: pointer;
+    border: 2px solid aliceblue;
+    transition: 0.5s;
+
+}
+
+
+#one {
+    background-color: blue;
+}
+
+#two{
+    background-color: green;
+}
+
+#three{
+    background-color: red;
+}
+
+#four {
+    background-color: yellow;
+}

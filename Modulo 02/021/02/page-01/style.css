@@ -1,0 +1,19 @@
+@charset "UFT-8";
+
+body{
+    background-color: #E8F1F2;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px;
+    background-color:#b9ffff ;
+}
+
+header > img {
+    height: 90px;
+    width: 90px;
+}
