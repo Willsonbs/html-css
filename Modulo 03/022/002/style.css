@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+body {
+    background-image: url(../imagens/wallpaper001.jpg);
+    background-size: 300px 300px;
+    background-repeat: repeat;
+    background-attachment: fixed;
+}

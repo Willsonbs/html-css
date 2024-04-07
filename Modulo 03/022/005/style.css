@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+body {
+    height: 98vh;
+    background-color: rgb(118, 84, 35);
+}
+div#p1 {
+    height: 200px;
+    background-image: url(../imagens/wallpaper004.jpg);
+    background-position: top center;
+}
+div#p2 {
+    height: 200px;
+    background-image: url(../imagens/wallpaper003.jpg);
+    background-position: center center;
+}
