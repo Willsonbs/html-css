@@ -1,5 +1,19 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Madimi+One&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Madimi+One&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Pacifico&display=swap');
+
+
+:root {
+    --font01:  'Anton';
+    --font02:  'Bebas Neue';
+    --font03:  'Madimi One';
+    --font04:  'Pacifico';
+   
+}
+
+
 * {
     margin: 0px;
     padding: 0px;
@@ -8,16 +22,20 @@
 html, body {
     min-height: 100vh;
     background-color: #ffffff;
+    font-family: var(--font04);
+    
 }
 
 header {
     background-color: black;
     color: white;
     text-align: center;
+    font-family: var(--font01);
 }
 header > h1 {
     padding-top: 50px;
     font-variant: small-caps;
+    font-size: 7vw;;
 }
 
 header > p{
@@ -40,27 +58,47 @@ section {
     padding-left: 30px;
 }
 
+
 section.stander {
     background-color: #ffffff;
     color: rgb(0, 0, 0);
 }
 
 section.stander > p {
-    background-color: rgba(0, 0, 0, 0.104);
+    background-color: rgba(0, 0, 0, 0.059);
     padding: 10px;
+    width: 300px;
+    
 }
 
 section.image {
     background-color: rgb(47, 48, 47);
     color: #ffffff;
+    box-shadow: inset 1px 1px 6px black;
+
 }
 
 section.image > p {
-    width: 400px;
+    display: inline-block;
     background-color: rgba(0, 0, 0, 0.333);
     padding: 10px;
+    width: 300px;
+    
 }
 
+section#img01 {
+    background-image: url(../imagens/background001.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section#img02 {
+    background-image: url(../imagens/background002.jpg);
+    background-position: bottom  right;
+    background-size: cover;
+    background-attachment: fixed;
+}
 
 
 
@@ -69,4 +107,5 @@ footer {
     color: white;
     padding: 20px;
     text-align: center;
+    font-family: var(--font02);
 }
