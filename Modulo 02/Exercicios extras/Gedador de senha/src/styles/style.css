@@ -2,13 +2,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 
 
-:root {
-    --color-primary-1: #6cb469;
-    --color-primary-2: #3d8d55;
 
-    --color-secondary-1: #e6dfdf;
-    --color-secondary-2: #c8cfc9;
-    --color-secondary-3: #1f3827;
+
+:root {
+    --color-001: #6cb469;
+    --color-002: #3184e9;
+
+    --color-003: #e6dfdf;
+    --color-004: #c6e3ef;
+    --color-004: #000000;
 }
 
 * {
@@ -25,10 +27,11 @@ body {
     justify-content: center;
     min-height: 100vh;
     font-family: 'Roboto Mono', monospace;
-    background-color: var(--color-primary-2);
+    background-color: var(--color-002);
     font-size: 16px;
     
 }
+
 
 #container {
     display: flex;
@@ -55,8 +58,8 @@ body {
     display: none;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--color-secondary-2);
-    color: black;
+    background-color: var(--color-004);
+    color: rgb(255, 255, 255);
     border-radius: 5px;
     padding: 8px 18px;
 
@@ -75,7 +78,7 @@ body {
 #copy {
     background-color: transparent;
     border: none;
-    color: var(--color-primary-1);
+    color: var(--color-001);
     height: 25px;
     width: 30px;
     font-size: 16px;
@@ -84,7 +87,7 @@ body {
 }
 
 #copy:hover {
-    color: var(--color-primary-2);
+    color: beige;
 
 }
 
@@ -94,7 +97,7 @@ body {
     gap: 12px;
     border-radius: 5px;
     width: 400px;
-    background-color: var(--color-secondary-2);
+    background-color: #33bcf3;
     padding: 18px;
 
 }
@@ -102,6 +105,7 @@ body {
 .item {
     display: flex;
     gap: 14px;
+    color: #ffffff;
 
 }
 
@@ -119,12 +123,12 @@ body {
 }
 
 #generate {
-    background-color: var(--color-primary-1);
+    background-color: #0461f6;
     border: none;
     margin-top: 12px;
     padding: 10px 0px;
     border-radius: 5px;
-    color: black;
+    color: rgb(255, 255, 255);
     font-size: 16px;
     font-weight: bold;
     cursor: pointer;
@@ -132,7 +136,7 @@ body {
 }
 
 #generate:hover {
-    background-color: var(--color-primary-2);
+    background-color: white;
 
 }
 
