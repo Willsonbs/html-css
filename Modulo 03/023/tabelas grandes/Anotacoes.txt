@@ -1,0 +1,6 @@
+Estilo zebrado
+Posso usar
+
+tbody > tr-nth-child(odd) ou (even) ou (2n) {
+    background-color: white;
+}
