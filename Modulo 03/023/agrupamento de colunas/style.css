@@ -1,0 +1,24 @@
+@charset "UFT-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    width: 400px;
+}
+th, td {
+    border: 2px solid #535151;
+    padding: 8px;
+    text-align: center;
+}
+.nome {
+    background-color: #53515184;
+}
+
+
+.idade {
+    background-color: #53515189;
+}
+
