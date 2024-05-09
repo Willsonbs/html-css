@@ -1,0 +1,26 @@
+@charset "UFT-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(58, 53, 53);
+    color: white;
+    text-align: center;
+}
+h1 {
+    text-align: center;
+    color: white;
+}
+
+iframe {
+    
+    background-color: aliceblue;
+    justify-content: center;
+    text-align: center;
+
+}
+
+       
+
+
+
+    
