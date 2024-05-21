@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+    <style>
+        body {
+            background-color: rgba(153, 221, 124, 0.745);
+            color: white !important;
+            font-size: 2em;
+        }
+    </style>
+</head>
+<body>
+
+    <a href="#" onclick="Here()">Clique em mim!</a>
+    <div id="saida"></div>
+    <script>
+        function Here() {
+            s = window.document.getElementById("saida")
+            s.innerHTML += '<p>Você clicou em mim!</P>'
+        }
+    </script>
+    
+</body>
+</html>
