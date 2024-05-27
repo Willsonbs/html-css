@@ -9,15 +9,33 @@
 <body>
     <h1>Formulários</h1>
     
-    <form action="cadastro.php">
+    <form action="cadastro.php" method="get">
 
         <p><label for="inome">Nome:</label> 
-            <input type="text" name="nome" id="inome"></p>
-
+            <input type="text" name="nome" id="inome" required></p>
         <p><label for="isobrenome">Sobrenome:</label> 
-            <input type="text" name="sobrenome" id="isobrenome"></p>
+            <input type="text" name="sobrenome" id="isobrenome" required></p>
+        <p><input type="submit" value="Enviar"></p>
+    </form>
 
-        <p><input type="submit" value="enviar"></p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit magnam ipsum aspernatur accusantium nostrum veritatis adipisci quidem, cupiditate consequatur vel alias doloremque saepe eum deleniti error laudantium nulla, enim reprehenderit?
+    </p>
+
+    <form action="cadastro.php" method="post">
+        <p>
+            <label for="iusu">Usuário:</label>
+            <input type="text" name="usu" id="iusu" required>
+
+        </p>
+        <p>
+            <label for="ipass">Senha:</label>
+            <input type="password" name="pass" id="ipass" required>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
     </form>
 
     
