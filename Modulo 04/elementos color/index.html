@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos Color</title>
+</head>
+<body>
+
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <fieldset>
+            <legend>Cores</legend>
+            <p>
+                <label for="cor">Cor:</label>
+                <input type="color" name="color" id="icor" value="ffffff">
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Range</legend>
+            <p>
+                <label for="range">Range:</label>
+                <input type="range" name="range" id="irange" min="0" max="100">
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>File</legend>
+            <p>
+                <label for="file">Foto:</label>
+                <input type="file" name="foto" id="file">
+            </p>
+        </fieldset>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+        
+    </form>
+
+   
+    
+</body>
+</html>

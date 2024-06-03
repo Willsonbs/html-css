@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select Datalist e Textarea</title>
+</head>
+<body>
+    <h1>Select Datalist e Textarea em html</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+       <fieldset>
+        <legend>Estados Brasileiros</legend>
+           <p>
+            <label for="iestados">Estados</label>
+            <select name="estados" id="iestados">
+                <option value="">--Selecione--</option>
+                <optgroup label="Região Norte">
+                    <option value="AC">Acre</option>
+                    <option value="Ap">Amapá</option>
+                    <option value="AM">Amazonas</option>
+                    <option value="PA">Pará</option>
+                    <option value="RO">Rondônia</option>
+                    <option value="RR">Roraima</option>
+                    <option value="TO">Tocantins</option>
+                </optgroup>
+                <optgroup label="Região Nordeste">
+                    <option value="AL">Alagoas</option>
+                    <option value="BA">Bahia</option>
+                    <option value="CE">Ceará</option>
+                    <option value="MA">Maranhão</option>
+                    <option value="PB">Paraíba</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="PI">Piauí</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="SE">Sergipe</option>
+                </optgroup>
+                <optgroup label="Região Centro-Oeste">
+                    <option value="DF">Distrito Federal</option>
+                    <option value="ES">Espírito Santo</option>
+                    <option value="GO">Goiás</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="MS">Mato Grosso do Sul</option>
+                    <option value="MT">Mato Grosso</option>
+                    <option value="PR">Paraná</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="SP">São Paulo</option>
+                </optgroup>
+                <optgroup label="Região Sudeste">
+                    <option value="ES">Espírito Santo</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="SP">São Paulo</option>
+                </optgroup>
+                <optgroup label="Região Sul">
+                    <option value="PR">Paraná</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="SC">Santa Catarina</option>
+                </optgroup>
+            </select>
+           </p>
+       </fieldset>
+
+       <fieldset>
+        <legend>Lista com edição</legend>
+           <p>
+            <label for="lista">Lista</label>
+            <input type="text" name="lenguage" id="ilanguage" list="lista">
+            <datalist id="lista">
+                <option value="HTML">
+                <option value="CSS">
+                <option value="JavaScript">
+                <option value="PHP">
+                <option value="MySQL">
+                <option value="Python">
+                <option value="Java">
+                <option value="C">
+                <option value="C++">
+            </datalist>
+           </p>
+       </fieldset>
+
+       <fieldset>
+        <legend>Textarea</legend>
+           
+            <label for="textarea"></label>
+            <textarea name="textarea" id="textarea" cols="60" rows="10"></textarea>
+           
+       </fieldset>
+       <p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+       </p>
+    </form>
+
+    
+</body>
+</html>
