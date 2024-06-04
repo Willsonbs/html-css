@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculando Idade</title>
+</head>
+<body>
+    <h1>Calculando a idade</h1>
+    <div>
+        <form action="cadastro.php" method="get" autocomplete="on">
+            <p>
+                <label for="iano">Em que ano você nasceu? =</label>
+                <input type="date" name="data_nascimento" id="iano"  required
+                oninput="calcIdade()">
+            </p>
+            <p>
+                <label for="iidade">Essa é sua idade atualmente =</label>
+                <output id="iidade">0</output>
+            </p>
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar" onclick="resetOutput()">
+            </p>
+        </form>
+
+        <script>
+            function calcIdade() {
+                let dataNascimento = new Date(document.getElementById("iano").value)
+                let hoje = new Date();
+
+                let idade = hoje.getFullYear() - dataNascimento.getFullYear();
+                let mes = hoje.getMonth - dataNascimento.getMonth();
+                let dia  = hoje.getDate() - dataNascimento.getDate();
+
+                if (mes < 0 || (mes === 0 && dia < 0)) {
+                    idade--;
+                }
+                document.getElementById('iidade').innerHTML = idade;
+            }
+            function resetOutput() {
+                document.getElementById('iidade').innerHTML = 0;
+            }
+        </script
+    </div>
+    
+</body>
+</html>
