@@ -1,0 +1,10 @@
+@charset "UFT-8";
+
+/* Portrait*/
+
+body {
+    
+    background-image: url(/assets/cev-portrait.jpg);
+    background-position: center bottom; 
+    
+}

@@ -1,0 +1,27 @@
+@charset "UFT-8";
+
+/*style all*/
+
+* {
+    margin: 0;
+    padding: 0px;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #233eff;
+    color: white;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+
+h1 {
+    font-size: 2.3em;
+    padding: 1em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 0 0 3px white;
+    text-align: center;
+}
+
