@@ -1,0 +1,38 @@
+@charset "UFT-8";
+
+* {
+    margin: 0;
+    padding: 10px;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace
+    
+    
+}
+
+header {
+    margin-bottom: 60px;
+    
+}
+
+main {
+    line-height: 1.3em;
+}
+
+header li {
+    list-style: none;
+}
+
+p {
+    text-align: justify;
+}
+
+article {
+    width: 100%;
+}
+
+article::after {
+    text-align: justify;
+    content: 'Artigo impresso através do site www.cursoemvideo.com';
+}
