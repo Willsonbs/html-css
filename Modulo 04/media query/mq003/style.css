@@ -1,0 +1,48 @@
+@charset "UFT-8";
+
+/* versão mobile first*/
+
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.3em;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+html {
+    height: 100vh;
+}
+
+body {
+    background: black url(/assets/back-phone.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+main {
+    background-color: #ffffff97;
+    width: 450px;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+    padding: 15px;
+    text-shadow: 0 0 3px #fff;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+img#phone { display: block;}
+img#print { display: none;}
+img#tablet { display: none;}
+img#tv { display: none;}
