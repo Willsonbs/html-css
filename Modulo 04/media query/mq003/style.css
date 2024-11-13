@@ -23,18 +23,19 @@ body {
 }
 
 main {
-    background-color: #ffffff97;
+    background-color: #ffffffcb;
     width: 450px;
     margin: auto;
     margin-top: 10px;
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 10px;
 }
 
 h1 {
     text-align: center;
     padding: 15px;
-    text-shadow: 0 0 3px #fff;
+    font-size: 1.2em;
+    text-shadow: 0 0 3px #ffffff;
 }
 
 img {
@@ -46,3 +47,4 @@ img#phone { display: block;}
 img#print { display: none;}
 img#tablet { display: none;}
 img#tv { display: none;}
+img#pc { display: none;}
