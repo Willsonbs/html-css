@@ -8,7 +8,7 @@ Desktop: 992px até 1200px
 Grande telas: acima de 1200px
 */
 
-@media screen and (min-width:768px) {
+@media screen and (min-width:767px) {
     #burger {
         display: none;
     }
