@@ -11,6 +11,10 @@ body {
     
 }
 
+menu {
+    display: none;
+}
+
 header {
     margin-bottom: 60px;
     
