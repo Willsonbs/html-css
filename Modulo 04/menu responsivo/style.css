@@ -21,13 +21,13 @@ header {
 }
 
 header h1 {
-    padding: 10px;
+    padding: 20px;
     text-align: center;
     
 }
 
 #burger {
-    background-color: rgb(201, 191, 10);
+    background-color: rgb(239, 239, 222);
     display: block;
     text-align: center;
     padding: 10px;
