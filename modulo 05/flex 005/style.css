@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+/*
+align-content: 
+strech - estende os itens no sentido cross-axis
+flex-start - pega todos os elementos e posiciona encima no cross-start
+flex-end - pega todos os elementos e posiciona embaixo no cross-end
+center - centraliza os itens no cross-axis
+space-between - coloca espaço entre os itens no cross-axis, mas não o primeiro e o último
+space-around - coloca espaço entre os itens no cross-axis, incluindo o primeiro e o último
+espace-evenly - coloca espaço entre os itens no cross
+
+
+*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: blueviolet;
+}
+
+.header {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 15px;
+    color: aliceblue;
+}
+
+.container {
+    background-color: rgb(83, 231, 98);
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-around;
+    padding: 20px;
+}
+
+    
+.box {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(226, 65, 218);
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: 2px 2px 2px rgba(10, 8, 8, 0.868);
+    
+   
+    
+}
