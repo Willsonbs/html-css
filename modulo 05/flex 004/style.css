@@ -17,6 +17,7 @@ main {
     flex-flow: row-nowrap;
     justify-content: center;
     align-items: center;
+    border-radius: 2px;
 }
 
 section {

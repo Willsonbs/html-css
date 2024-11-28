@@ -1,15 +1,39 @@
 @charset "UTF-8";
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(172, 90, 214);
+}
+
+header {
+    background-color: rgb(172, 90, 214);
+    text-align: center;
+    padding: 10px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 div.container {
-    background-color: blue;
+    height: 300px;
+    background-color: rgb(14, 198, 94);
     display: flex;
     flex-direction: row;
+    width: 95vw;
+    margin: auto;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.738);
+    border-radius: 2px;
 }
 
 div.item {
-    background-color: violet;
+    background-color: rgb(226, 65, 218);
     border: 1px solid black;
     padding: 1px;
     text-align: center;
     flex: auto;
+    margin: 10px;
 }

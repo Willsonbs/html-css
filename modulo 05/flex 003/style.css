@@ -1,18 +1,32 @@
 @charset "UTF-8";
 
+body {
+    background-color: rgb(172, 90, 214);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+    background-color: rgb(172, 90, 214);
+    text-align: center;
+    padding: 10px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 div.container {
-    background-color: blue;
+    background-color: rgb(73, 225, 121);
     height: 300px;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
     align-items: center;
+    border-radius: 2px;
     
 }
 
 div.item {
     height: 30%;
-    background-color: violet;
+    background-color: rgb(226, 65, 218);
     border: 1px solid black;
     padding: 3px;
     text-align: center;

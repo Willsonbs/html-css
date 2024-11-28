@@ -1,14 +1,36 @@
 @charset "UTF-8";
 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(172, 90, 214);
+}
+
+header {
+    color: aliceblue;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 div.container {
-    background-color: blue;
+    background-color: aquamarine;
+    margin: 10px;
+    height: 300px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.901);
     display: flex;
+    border-radius: 2px;
 }
 
 div.item {
+    color: aliceblue;
     background-color: violet;
-    border: 1px solid black;
-    padding: 1px;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 10px;
     text-align: center;
-    flex: auto;
+    
 }
