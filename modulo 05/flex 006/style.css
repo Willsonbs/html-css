@@ -54,6 +54,26 @@ body {
     border: 2px solid rgb(255, 255, 255);
     box-shadow: 2px 2px 2px rgba(10, 8, 8, 0.868);
     
-   
-    
+}
+
+/*Este alinhamento funciona no main axis*/
+
+div#i1 {
+    order: 4;
+}
+
+div#i2 {
+    order: -2;
+}
+
+div#i3 {
+    order: 1;
+}
+
+div#i4 {
+    order: 3;
+}
+
+div#i5 {
+    order: 0;
 }

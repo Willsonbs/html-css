@@ -36,9 +36,10 @@ body {
     background-color: rgb(83, 231, 98);
     display: flex;
     flex-flow: row wrap;
-    align-content: space-around;
-    padding: 20px;
+    align-items: flex-start;
+    padding: 10px;
     width: 95vw;
+    height: 300px;
     margin: auto;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.738);
 }
@@ -46,14 +47,33 @@ body {
     
 .box {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    width: 150px;
-    height: 150px;
+    
     background-color: rgb(226, 65, 218);
     padding: 10px;
     margin: 10px;
     border: 2px solid rgb(255, 255, 255);
     box-shadow: 2px 2px 2px rgba(10, 8, 8, 0.868);
     
-   
+}
+
+/*Este alinhamento funciona no main axis*/
+
+div#i1 {
     
+}
+
+div#i2 {
+    align-self: center;
+}
+
+div#i3 {
+    align-self: flex-end;
+}
+
+div#i4 {
+    align-self: center;
+}
+
+div#i5 {
+    align-self: stretch;
 }
