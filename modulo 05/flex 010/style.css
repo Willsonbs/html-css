@@ -29,6 +29,7 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding: 15px;
     color: aliceblue;
+    text-shadow: 2px 2px 2px #000000;
     
 }
 
@@ -36,7 +37,7 @@ body {
 .container {
     background-color: rgb(83, 231, 98);
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
     align-items: center;
     padding: 10px;
     width: 95vw;
@@ -56,9 +57,23 @@ body {
     border: 2px solid rgb(255, 255, 255);
     box-shadow: 2px 2px 2px rgba(10, 8, 8, 0.868);
 
-    flex-basis: 80px;
+    flex-basis: 100px;
+    flex-shrink: 1;
+    flex-grow: 1;
+}
+
+
+div#i1 {
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+div#i2 {
+    flex-grow: 2;
+    flex-shrink: 1;
 }
 
 div#i3 {
-    flex-basis: auto;
+    flex-grow: 1;
+    flex-shrink: 4;
 }

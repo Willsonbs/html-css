@@ -16,6 +16,7 @@ header {
     padding: 10px;
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 2px 2px 2px #000000;
 }
 
 div.container {
