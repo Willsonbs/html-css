@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+/*
+align-content: 
+strech - estende os itens no sentido cross-axis
+flex-start - pega todos os elementos e posiciona encima no cross-start
+flex-end - pega todos os elementos e posiciona embaixo no cross-end
+center - centraliza os itens no cross-axis
+space-between - coloca espaço entre os itens no cross-axis, mas não o primeiro e o último
+space-around - coloca espaço entre os itens no cross-axis, incluindo o primeiro e o último
+espace-evenly - coloca espaço entre os itens no cross
+
+
+*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: blueviolet;
+    text-align: center;
+}
+
+.header {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 15px;
+    color: aliceblue;
+    text-shadow: 2px 2px 2px #000000;
+    
+}
+
+
+.container {
+    background-color: rgb(83, 231, 98);
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    padding: 10px;
+    width: 95vw;
+    height: 300px;
+    margin: auto;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.738);
+    border-radius: 2px;
+}
+
+    
+.box {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    background-color: rgb(226, 65, 218);
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: 2px 2px 2px rgba(10, 8, 8, 0.868);
+    
+}
+
+/* 
+Preferencialmente use a shortHand para flex = flex-grow, flex-shrink, flex-basis
+flex= 0 1 auto - significa que são valores padrões ou flex: initia. 
+
+Outra configuração que configura o mínimo de movimentação flex: 00 auto ou flex: none
+
+Existe também o flex: auto ou flex: 1 1 auto
+
+Existe a configuração apenas do grow deixando os outros valores de referência automatico mesmo sem mencioná-los  flex: 1 ou flex: 3 1 auto é a mesma coisa.
+*/
+
+div#i1 {
+    flex: 0 1 100px;
+}
+
+div#i2 {
+    flex: 2 1 100px;
+}
+
+div#i3 {
+    flex: 1 4 100px;
+}
