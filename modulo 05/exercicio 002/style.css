@@ -89,8 +89,9 @@ h2, p {
     padding: 10px;
 }
 
-.rodape {
+footer {
     margin: 5px;
-    text-align: right;
+    text-align: center;
+    padding: 5px;
     
 }
